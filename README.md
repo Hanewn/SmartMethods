@@ -1,14 +1,12 @@
 # SmartMethods
 this contains the project I did for smart method training, it is a tinkercad circuit programmed to rotate 6 servo motors from 0 to 90 degrees
-https://www.tinkercad.com/things/bjp0F1bafJb-start-simulating/editel?lessonid=EHD2303J3YPUS5Z&projectid=OIYJ88OJ3OPN3EA&collectionid=OIYJ88OJ3OPN3EA&sharecode=wRzv7b3laWGy-kBciUStjRT6dcq_aeTzL8aKxICuVeY
+https://www.tinkercad.com/things/bjp0F1bafJb-start-simulating/editel?lessonid=EHD2303J3YPUS5Z&projectid=OIYJ88OJ3OPN3EA&collectionid=OIYJ88OJ3OPN3EA&sharecode=-oJGcQ_htWjF3lJ6ayYPY1g57veEdJ_qaeSnc2YGHso
 
 #include <Servo.h>
 
 int outputvalue1 = 0;
 
 int sensorvalue1 = 0;
-
-int op = 0;
 
 int sen2 = 0;
 
@@ -88,3 +86,5 @@ void loop()
   servo_7.write(out6);
   delay(10); 
 }
+![Screenshot (38)](https://user-images.githubusercontent.com/86006737/122652770-33fd7b00-d149-11eb-9248-2682dfaf7192.png)
+
