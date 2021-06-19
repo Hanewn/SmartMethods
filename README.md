@@ -28,8 +28,6 @@ int sen6 = 0;
 
 int out6 = 0;
 
-int i = 0;
-
 Servo servo_12;
 
 Servo servo_11;
